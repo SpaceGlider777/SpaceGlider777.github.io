@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #212121;
+    color: white;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer i {
+    margin: 0 1rem;
+    font-size: 20pt;
+}

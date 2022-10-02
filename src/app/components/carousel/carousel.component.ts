@@ -17,6 +17,7 @@ export class CarouselComponent implements OnInit {
 }
 
 export interface CarouselItem {
+  title: string;
   imageUrl: string;
   description: string;
 }

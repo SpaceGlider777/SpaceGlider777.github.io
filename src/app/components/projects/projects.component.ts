@@ -9,8 +9,9 @@ import { CarouselItem } from '../carousel/carousel.component';
 export class ProjectsComponent implements OnInit {
   projects: CarouselItem[] = [
     { 
+      title: 'Wordle',
       imageUrl: '../assets/wordle-app.png', 
-      description: `Wordle - A web application based on the popular game created by the New York Times.
+      description: `A web application based on the popular game created by the New York Times.
                     Developed using Angular, .NET, and MSSQL. The five letter word bank is stored in the database
                     and is retreived via the web API.`
     }

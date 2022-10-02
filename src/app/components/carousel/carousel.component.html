@@ -1,8 +1,9 @@
 <div class="carousel">
     <div class="directions">
-        <i class="bi bi-chevron-left"></i>
-        <i class="bi bi-chevron-right"></i>
+        <!-- <i class="bi bi-chevron-left"></i>
+        <i class="bi bi-chevron-right"></i> -->
     </div>
     <img [src]="carouselItems[currentItem].imageUrl">
+    <h3>{{ carouselItems[currentItem].title }}</h3>
     <p class="description">{{ carouselItems[currentItem].description }}</p>
 </div>
