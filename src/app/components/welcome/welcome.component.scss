@@ -1,6 +1,16 @@
 .inner-container {
     max-width: 40rem;
     height: 90vh; // margin-top is 10% from body
+    margin-top: 5%;
+}
+
+img {
+    clip-path: circle();
+    position: absolute;
+    width: 55rem;
+    opacity: 0.5;
+    top: 30%;
+    right: 0;
 }
 
 .greeting {
