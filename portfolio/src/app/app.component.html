@@ -1,0 +1,36 @@
+<div class="social-media-links">
+    <hr class="vertical-line">
+    <div class="icon-container">
+        <i class="bi bi-github"></i>
+        <i class="bi bi-linkedin"></i>
+    </div>    
+    <hr class="vertical-line">
+</div>
+
+<div class="outer-sections-container">
+    <h4 class="sections-header">SECTIONS</h4>
+    <div class="inner-sections-container">
+        <div (click)="scrollTo(welcome)">Welcome</div>
+        <div (click)="scrollTo(projects)">Projects</div>
+        <div (click)="scrollTo(experience)">Experience</div>
+        <div (click)="scrollTo(skills)">Skills</div>
+    </div>
+</div>
+
+<div #welcome>
+    <app-welcome></app-welcome>
+</div>
+
+<div #projects>
+    <app-projects></app-projects>
+</div>
+
+<div #experience>
+    <app-experience></app-experience>
+</div>
+
+<div #skills>
+    <app-skills></app-skills>
+</div>
+
+<router-outlet></router-outlet>

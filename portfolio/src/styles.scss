@@ -1,0 +1,43 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+body {
+    background-color: #212121;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.container {
+    height: 90vh;
+    padding-top: 10vh;
+}
+
+.inner-container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.outline-btn {
+    letter-spacing: 1px;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid #FF1744;
+    border-radius: 5px;
+    padding: 0.8rem;
+}
+
+.vertical-line {
+    width: 1px;
+}
+
+h1, h2, h3, h4, h5 {
+    letter-spacing: 1px;
+}
+
+.title {
+    letter-spacing: 3px;
+}
+
+button {
+    cursor: pointer;
+}
