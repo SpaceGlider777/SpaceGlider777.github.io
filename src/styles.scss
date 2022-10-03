@@ -13,8 +13,7 @@ body {
 }
 
 .inner-container {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0 25%;
 }
 
 .outline-btn {
@@ -22,7 +21,7 @@ body {
     color: white;
     font-weight: bold;
     background-color: transparent;
-    border: 2px solid #3F51B5;
+    border: 2px solid #536dfe;
     border-radius: 5px;
     padding: 0.8rem;
 }
@@ -35,10 +34,20 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
 }
 
+.sub-header {
+    opacity: 0.5;
+}
+
 .title {
     letter-spacing: 3px;
 }
 
 button {
     cursor: pointer;
+}
+
+@media (max-width: 961px) {
+    .inner-container {
+        margin: 0 5%;
+    }
 }

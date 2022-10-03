@@ -1,6 +1,6 @@
 .inner-container {
     max-width: 40rem;
-    height: 90vh; // margin-top is 10% from body
+    height: 90vh;
     margin-top: 5%;
 }
 
@@ -20,4 +20,10 @@ img {
 
 p {
     line-height: 1.5;
+}
+
+@media (max-width: 961px) {
+    img {
+        display: none;
+    }
 }

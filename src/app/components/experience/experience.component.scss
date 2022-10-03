@@ -1,0 +1,15 @@
+ul {
+    max-width: 40rem;
+    list-style: none;
+}
+
+li {
+    margin-top: 0.5em;
+}
+
+li::before {
+    content: '▹';
+    position: absolute;
+    left: 25%;
+    color: #536dfe;
+}
