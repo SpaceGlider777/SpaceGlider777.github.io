@@ -39,11 +39,15 @@ h1, h2, h3, h4, h5 {
 }
 
 .title {
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 button {
     cursor: pointer;
+}
+
+.shadow {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 @media (max-width: 961px) {

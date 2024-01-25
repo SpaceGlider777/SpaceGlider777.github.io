@@ -1,13 +1,13 @@
 <div class="carousel">
-    <div class="directions">
-        <!-- <i class="bi bi-chevron-left"></i>
-        <i class="bi bi-chevron-right"></i> -->
-    </div>
+    <div class="carousel-item" *ngFor="let carouselItem of carouselItems">
 
-    <div class="img-container">
-        <img [src]="carouselItems[currentItem].imageUrl">
+        <div class="img-container">
+            <img class="shadow" [src]="carouselItem.imageUrl">
+        </div>
+        
+        <div>
+            <h3>{{ carouselItem.title }}</h3>
+            <p class="description">{{ carouselItem.description }}</p>
+        </div>
     </div>
-    
-    <h3>{{ carouselItems[currentItem].title }}</h3>
-    <p class="description">{{ carouselItems[currentItem].description }}</p>
 </div>
