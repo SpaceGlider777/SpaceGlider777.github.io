@@ -1,7 +1,16 @@
+a {
+    color: white;
+}
+
 .container {
     position: relative;
     background-color: whitesmoke;
     color: black;
+    height: unset;
+}
+
+.inner-container {
+    padding-bottom: 15rem;
 }
 
 img {
