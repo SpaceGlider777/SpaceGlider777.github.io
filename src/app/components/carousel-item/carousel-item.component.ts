@@ -46,7 +46,6 @@ export class CarouselItemComponent implements OnInit {
     } else {
       this.state = 'hide';
     }
-
   }
 
 }
