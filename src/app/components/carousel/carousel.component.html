@@ -1,13 +1,5 @@
 <div class="carousel">
-    <div class="carousel-item" *ngFor="let carouselItem of carouselItems">
-
-        <div class="img-container">
-            <img class="shadow" [src]="carouselItem.imageUrl">
-        </div>
-        
-        <div>
-            <h3>{{ carouselItem.title }}</h3>
-            <p class="description">{{ carouselItem.description }}</p>
-        </div>
-    </div>
+    <ng-container *ngFor="let item of carouselItems">
+        <app-carousel-item [item]="item"></app-carousel-item>
+    </ng-container>
 </div>

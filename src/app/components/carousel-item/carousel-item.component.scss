@@ -1,0 +1,36 @@
+.carousel-item {
+    margin-top: 3rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.directions {
+    width: 50%;
+    height: inherit;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 38rem;
+    height: 20rem;
+}
+
+.description {
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 961px) {
+    img {
+        width: 23rem;
+        height: 12rem;;
+    }
+
+    .carousel-item {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

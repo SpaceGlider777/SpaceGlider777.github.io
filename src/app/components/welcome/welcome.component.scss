@@ -2,6 +2,7 @@
     max-width: 40rem;
     height: 90vh;
     margin-top: 5%;
+    animation: slide 1s ease;
 }
 
 img {
@@ -11,6 +12,7 @@ img {
     opacity: 0.5;
     top: 30%;
     right: 0;
+    animation: slide-img 1s ease;
 }
 
 .greeting {
@@ -25,5 +27,29 @@ p {
 @media (max-width: 961px) {
     img {
         display: none;
+    }
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-img {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    
+    100% {
+        opacity: 0.5;
+        transform: translateX(0);
     }
 }
