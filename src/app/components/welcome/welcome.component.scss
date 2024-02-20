@@ -2,17 +2,7 @@
     max-width: 40rem;
     height: 90vh;
     margin-top: 5%;
-    animation: slide 1s ease;
-}
-
-img {
-    clip-path: circle();
-    position: absolute;
-    width: 55rem;
-    opacity: 0.5;
-    top: 30%;
-    right: 0;
-    animation: slide-img 1s ease;
+    animation: fade 2s ease;
 }
 
 .greeting {
@@ -115,27 +105,13 @@ p {
     }
 }
 
-@keyframes slide {
+@keyframes fade {
     0% {
         opacity: 0;
-        transform: translateX(-100%);
     }
     
     100% {
         opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes slide-img {
-    0% {
-        opacity: 0;
-        transform: translateY(-100%);
-    }
-    
-    100% {
-        opacity: 0.5;
-        transform: translate(0);
     }
 }
 
