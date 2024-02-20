@@ -2,6 +2,12 @@ a {
     color: white;
 }
 
+a:hover {
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .container {
     position: relative;
     background-color: whitesmoke;
