@@ -1,5 +1,9 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
+:root {
+    --primary: #536dfe;
+}
+
 body {
     margin: 0;
     background-color: #212121;
@@ -8,7 +12,7 @@ body {
 }
 
 .container {
-    height: 90vh;
+    height: 90svh;
     padding-top: 10vh;
 }
 
@@ -21,13 +25,13 @@ body {
     color: white;
     font-weight: bold;
     background-color: transparent;
-    border: 2px solid #536dfe;
+    border: 2px solid var(--primary);
     border-radius: 5px;
     padding: 0.8rem;
 }
 
 .outline-btn:hover {
-    border: 2px solid #fe53cb;
+    box-shadow: 0 0 5px 3px var(--primary);
 }
 
 .vertical-line {
