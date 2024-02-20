@@ -20,20 +20,6 @@ body {
     margin: 0 25%;
 }
 
-.outline-btn {
-    letter-spacing: 1px;
-    color: white;
-    font-weight: bold;
-    background-color: transparent;
-    border: 2px solid var(--primary);
-    border-radius: 5px;
-    padding: 0.8rem;
-}
-
-.outline-btn:hover {
-    box-shadow: 0 0 5px 3px var(--primary);
-}
-
 .vertical-line {
     width: 1px;
 }
