@@ -19,4 +19,5 @@ export interface CarouselItem {
   title: string;
   imageUrl: string;
   description: string;
+  technologies: string[];
 }

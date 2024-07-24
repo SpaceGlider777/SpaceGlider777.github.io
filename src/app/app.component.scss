@@ -1,5 +1,6 @@
 header {
     position: fixed;
+    top: 0;
     background-color: #212121;
     width: calc(100% - 2rem);
     height: 4rem;
@@ -29,10 +30,28 @@ img {
 }
 
 .header-right div:hover {
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: var(--primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.img-container {
+    margin: auto;
+}
+
+footer {
+    color: white;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i {
+    margin: 0 1rem;
+    font-size: 20pt;
+}
+
 
 @keyframes glow {
     0%, 100% {

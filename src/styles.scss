@@ -1,23 +1,36 @@
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
 :root {
-    --primary: #536dfe;
+    --primary: #00ff73ff;
 }
 
 body {
+    min-height: 100vh;
     margin: 0;
     background-color: #212121;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
     color: white;
 }
 
-.container {
-    height: 90svh;
-    padding-top: 10vh;
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background: var(--primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content {
+    opacity: 0.7;
 }
 
 .inner-container {
-    margin: 0 25%;
+    padding-top: 1rem;
+    margin: 0 35%;
 }
 
 .vertical-line {
@@ -25,7 +38,8 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    letter-spacing: 1px;
+    margin: 1rem 0 5px 0;
+    font-weight: normal;
 }
 
 .sub-header {

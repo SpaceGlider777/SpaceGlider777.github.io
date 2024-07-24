@@ -1,6 +1,14 @@
 <div class="container">
     <div class="inner-container">
-        <h2 class="title">PROJECTS</h2>
-        <app-carousel [carouselItems]="projects"></app-carousel>
+        <h3>Projects</h3>
+        <ng-container *ngFor="let project of projects">
+            <h4>{{ project.title }} | <a href="#">Github</a></h4>
+            <div class="content">{{ project.description }}</div>
+            <div class="technologies">
+                <span *ngFor="let technology of project.technologies; index as i">
+                    <ng-container *ngIf="i > 0">• </ng-container>{{ technology }} 
+                </span>
+            </div>
+        </ng-container>
     </div>
 </div>

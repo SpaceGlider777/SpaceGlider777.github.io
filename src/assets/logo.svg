@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="181.42142mm"
+   height="181.96223mm"
+   viewBox="0 0 181.42141 181.96224"
    version="1.1"
    id="svg1"
    sodipodi:docname="logo.svg"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.73139029"
-     inkscape:cx="394.45424"
-     inkscape:cy="487.42785"
+     inkscape:cx="340.44751"
+     inkscape:cy="268.66641"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -33,74 +33,41 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs1" />
+     id="defs1">
+    <rect
+       x="132.62413"
+       y="168.17287"
+       width="333.61121"
+       height="756.09424"
+       id="rect2" />
+    <rect
+       x="139.46042"
+       y="199.61983"
+       width="541.43457"
+       height="669.95697"
+       id="rect1" />
+  </defs>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-14.108404,-57.157125)">
     <rect
-       style="fill:#ff5599;stroke:#ff5599;stroke-width:0.252007"
-       id="rect1"
-       width="174.0162"
-       height="22.079575"
-       x="-17.398405"
-       y="85.267273"
-       rx="13.88976"
-       ry="11.039787"
-       transform="rotate(-27.849036)" />
-    <rect
-       style="fill:#ff5599;stroke:#ff5599;stroke-width:0.252007"
-       id="rect1-0"
-       width="174.0162"
-       height="22.079575"
-       x="-84.679764"
-       y="213.71024"
-       rx="13.88976"
-       ry="11.039787"
-       transform="rotate(-27.849036)" />
-    <rect
-       style="fill:#ff5599;stroke:#ff5599;stroke-width:0.252007"
-       id="rect1-6"
-       width="174.0162"
-       height="22.079575"
-       x="66.524162"
-       y="49.941067"
-       rx="13.88976"
-       ry="11.039787"
-       transform="rotate(27.944074)"
-       inkscape:transform-center-x="1.8087698"
-       inkscape:transform-center-y="-4.7028015" />
-    <rect
-       style="fill:#006cff;fill-opacity:1;stroke:#006cff;stroke-width:0.252007;stroke-opacity:1"
-       id="rect1-3"
-       width="174.0162"
-       height="22.079575"
-       x="-36.829315"
-       y="120.93385"
-       rx="13.88976"
-       ry="11.039787"
-       transform="rotate(-27.849036)" />
-    <rect
-       style="fill:#006cff;fill-opacity:1;stroke:#006cff;stroke-width:0.252007;stroke-opacity:1"
-       id="rect1-0-6"
-       width="174.0162"
-       height="22.079575"
-       x="-104.11067"
-       y="249.3768"
-       rx="13.88976"
-       ry="11.039787"
-       transform="rotate(-27.849036)" />
-    <rect
-       style="fill:#006cff;fill-opacity:1;stroke:#006cff;stroke-width:0.252007;stroke-opacity:1"
-       id="rect1-6-1"
-       width="174.0162"
-       height="22.079575"
-       x="85.09716"
-       y="86.061813"
-       rx="13.88976"
-       ry="11.039787"
-       transform="rotate(27.944074)"
-       inkscape:transform-center-x="1.8087698"
-       inkscape:transform-center-y="-4.7028015" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#00ff73;stroke-width:9.3953;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4"
+       width="170.60471"
+       height="170.60471"
+       x="19.697647"
+       y="63.197647"
+       rx="9.6122494"
+       ry="7.5468431" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.30737903,0,0,0.28128874,12.753847,-5.6164314)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:666.667px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math';white-space:pre;shape-inside:url(#rect2);display:inline;fill:#00ff73;fill-opacity:1;stroke:none"><tspan
+         x="132.625"
+         y="770.06214"
+         id="tspan2">S</tspan></text>
   </g>
 </svg>
