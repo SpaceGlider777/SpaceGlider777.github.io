@@ -8,8 +8,6 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { SkillsComponent } from './components/skills/skills.component';
-import { CarouselComponent } from './components/carousel/carousel.component';
-import { CarouselItemComponent } from './components/carousel-item/carousel-item.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +15,7 @@ import { CarouselItemComponent } from './components/carousel-item/carousel-item.
     WelcomeComponent,
     ExperienceComponent,
     ProjectsComponent,
-    SkillsComponent,
-    CarouselComponent,
-    CarouselItemComponent
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

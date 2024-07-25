@@ -1,3 +1,22 @@
+.experiences {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.year {
+    min-width: 5rem;
+}
+
+.employer {
+    opacity: 1;
+    margin-bottom: 5px;
+}
+
+.technologies {
+    opacity: 0.5;
+    margin-top: 5px;
+}
+
 ul {
     max-width: 40rem;
     list-style: none;
@@ -5,11 +24,4 @@ ul {
 
 li {
     margin-top: 0.5em;
-}
-
-li::before {
-    content: '▹';
-    position: absolute;
-    left: 25%;
-    color: #536dfe;
 }

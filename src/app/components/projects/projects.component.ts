@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { CarouselItem } from '../carousel/carousel.component';
 
 @Component({
   selector: 'app-projects',
@@ -7,14 +6,15 @@ import { CarouselItem } from '../carousel/carousel.component';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  projects: CarouselItem[] = [
+  projects: Project[] = [
     {
       title: 'Book Recommender System',
       imageUrl: '../assets/book-recommender-system.png',
       description: `A book recommendation system that recommends books based on a given book. Developed using sci-kit learn's 
                     unsupervised nearest neighbor model. Trained using a dataset of over 
                     one million book ratings.`,
-      technologies: ['Azure App Service', 'Angular', 'Flask', 'Jupyter Notebook', 'scikit-learn']
+      technologies: ['Azure App Service', 'Angular', 'Flask', 'Jupyter Notebook', 'scikit-learn'],
+      githubLink: 'https://github.com/SpaceGlider777/plutos-reads'
     },
     { 
       title: 'Wordle Clone',
@@ -22,7 +22,8 @@ export class ProjectsComponent implements OnInit {
       description: `A web application based on the popular game Wordle created by the New York Times.
                     A random word is chosen from a set of over 10,000 words.
                     You have six chances to guess the correct word.`,
-      technologies: ['Angular', '.NET', 'SQL Server']
+      technologies: ['Angular', '.NET', 'SQL Server'],
+      githubLink: 'https://github.com/SpaceGlider777/wordle-practice'
     },
     {
       title: 'YouTube Downloader',
@@ -36,18 +37,22 @@ export class ProjectsComponent implements OnInit {
       imageUrl: '../assets/client-scheduler.png',
       description: `A standalone Java application for scheduling appointments. Uses JDBC to connect to a MySQL database. Automatically checks 
                     for time conflicts and different timezones.`,
-      technologies: ['Java', 'MySQL']
-    },
-    // {
-    //   title: '',
-    //   imageUrl: '',
-    //   description: ''
-    // },
+      technologies: ['Java', 'MySQL'],
+      githubLink: 'https://github.com/SpaceGlider777/client-scheduler'
+    }
   ];
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
 }
+
+interface Project {
+  title: string;
+  imageUrl: string;
+  description: string;
+  technologies: string[];
+  githubLink?: string;
+}
+

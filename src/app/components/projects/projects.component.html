@@ -2,7 +2,7 @@
     <div class="inner-container">
         <h3>Projects</h3>
         <ng-container *ngFor="let project of projects">
-            <h4>{{ project.title }} | <a href="#">Github</a></h4>
+            <h4>{{ project.title }} | <a [href]="project.githubLink">Github</a></h4>
             <div class="content">{{ project.description }}</div>
             <div class="technologies">
                 <span *ngFor="let technology of project.technologies; index as i">
